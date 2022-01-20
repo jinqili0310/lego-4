@@ -1,4 +1,4 @@
-var icon_img = '../assets/lego/LEGO-Logo-Ani2b.gif'
+var icon_img = 'https://jinqili0310.github.io/assets/lego/LEGO-Logo-Ani2b.gif'
 var playAd = 0;
 var bye = 0;
 var sayBye// = setInterval(sayGoodbye, 600000);
@@ -26,7 +26,7 @@ function createQuestions() {
 
 	prescripted_questions[0] = new Question(['How are you?'], ['Absolutely 😃', 'Eh, it’s alright 😶','Not really 😣'], 1, 1);
 	prescripted_questions[1] = new Question(["Let me cheer you up by showing you some of our beautiful LEGO sets"], [""], 2, 0);
-	prescripted_questions[2] = new Question(["../assets/lego/LEGO%20GIF4.gif"], [""], 3, 0);
+	prescripted_questions[2] = new Question(["https://jinqili0310.github.io/assets/lego/LEGO%20GIF4.gif"], [""], 3, 0);
 	prescripted_questions[3] = new Question(["Do you like it?"], ["Yes", "It's okay."], 4, 0);
 	prescripted_questions[4] = new Question(["Great. What can I help you with today?"], ["Products 🎪", "Orders 💻", "Learn About LEGO 💡", "Support 📩"], 5, 2);
 	prescripted_questions[5] = new Question(["Sounds good. What do you want to know?"], ["Our Commitment to Creativity 🎨", "Our History 📍", "The LEGO Foundation 💞", "LEGO Education 📚"], 6, 0);
@@ -144,7 +144,7 @@ function askNextQuestion(answer_text) {
 			}, 2000);
 
 			setTimeout(function() {
-				postImage('https://kikijinqili.github.io/assets/lego/LEGO%20GIF3.gif');
+				postImage('https://jinqili0310.github.io/assets/lego/LEGO%20GIF3.gif');
 			}, 4000);
 		}
 }
